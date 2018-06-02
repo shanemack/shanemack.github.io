@@ -1,0 +1,90 @@
+body {
+	font-family: sans-serif;
+	padding: 20px;
+}
+
+p {
+	font-size: 18px;
+}
+
+nav {
+	width: 100%;
+}
+
+h1 {
+	color: grey;
+}
+
+#photos {
+	padding-top: 20px;
+	padding-bottom:20px;
+}
+
+.content {
+	padding: 0 7.5% 0 7.5%;
+}
+
+.dropdown:hover .dropdown-menu{
+	display:block;
+
+}
+
+.nav-item {
+	padding: 0 75px 0 75px;
+	font-size:20px;
+}
+
+.header {
+	display:flex;
+  	align-items:center;
+  	justify-content:center;
+  }
+
+.info {
+	padding: 30px;
+	display:flex;
+  	align-items:center;
+}
+
+.text {
+	padding: 30px;
+	align-items: center;
+}
+
+.gallery-image {
+	display:flex;
+  	align-items:center;
+  	justify-content: center;
+  	padding: 10px 0 10px 0;
+}
+
+.imageInfo {
+	padding: 20px;
+}
+
+.social-links {
+	padding:30px;
+}
+
+.gallery-descriptions {
+	padding: 40px;
+}
+
+.gallery-descriptions p {
+		font-family: serif;
+		font-size: 24px;
+}
+
+.resume-image {
+	padding: 30px;
+	align-items: center;
+}
+
+.personal-info {
+	padding:20px;
+}
+
+div.gallery-image span {width: 432px; margin-left:50px; display: none; position: absolute; bottom: 0; left: 0; right: 0; background: #333; color: #fff; }
+
+div.gallery-image:hover span {display: block; }
+
